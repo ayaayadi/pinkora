@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pinkora Beauty | Your beauty, your rules</title>
+    <meta
+      name="description"
+      content="Pinkora Beauty, startup fictive de beauté et de bien-être : routines skincare personnalisées, conseils beauté et sélection de produits."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="#accueil">
+          <img src="logo.png" alt="Pinkora Beauty" />
+        </a>
+        <input
+          class="nav__check"
+          type="checkbox"
+          id="nav-check"
+          aria-label="Ouvrir ou fermer le menu"
+        />
+        <label class="nav__toggle" for="nav-check" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </label>
+        <nav id="menu" class="nav__menu" aria-label="Navigation principale">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#accueil">Accueil</a></li>
+            <li><a class="nav__link" href="#apropos">À propos</a></li>
+            <li><a class="nav__link" href="#services">Services</a></li>
+            <li><a class="nav__link" href="#equipe">Équipe</a></li>
+            <li><a class="nav__link" href="#contact">Contact</a></li>
+          </ul>
+          <a class="btn btn--primary btn--sm" href="#contact"
+            >Let's talk, beauty!</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" id="accueil">
+        <div class="container hero__grid">
+          <div class="hero__text">
+            <p class="badge">✿ Beauty • Skincare • Lifestyle</p>
+            <p class="welcome">Welcome to your pink world</p>
+            <h1>Your beauty, <span class="grad">your rules.</span></h1>
+            <p class="lead">
+              Pinkora Beauty crée des routines skincare personnalisées, partage
+              des conseils sincères et sélectionne des cosmétiques pour que
+              chacune se sente belle et confiante.
+            </p>
+            <a class="btn btn--primary" href="#apropos"
+              >Découvrir notre univers</a
+            >
+          </div>
+          <div class="hero__visual">
+            <img src="image1.png" alt="Soins et produits Pinkora Beauty" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="apropos">
+        <div class="container">
+          <p class="label">✿ À propos</p>
+          <h2>
+            Une marque née d'une envie de <span class="grad">douceur</span>
+          </h2>
+          <div class="story">
+            <div>
+              <h3>Notre histoire</h3>
+              <p>
+                Pinkora Beauty est née autour d'une idée simple : la beauté ne
+                devrait jamais être une pression, mais un plaisir. Trois amies
+                passionnées de soins et de création ont imaginé un endroit où
+                chaque routine se construit à son rythme.
+              </p>
+              <h3>Notre philosophie</h3>
+              <p>
+                Nous croyons qu'une belle peau commence par un esprit apaisé.
+                Chaque conseil que nous partageons vise un seul objectif : vous
+                aider à vous sentir à l'aise dans votre peau.
+              </p>
+            </div>
+            <ul class="values">
+              <li>
+                <span aria-hidden="true">♡</span>
+                <div>
+                  <h3>Confiance en soi</h3>
+                  <p>Se choisir, s'affirmer, s'aimer.</p>
+                </div>
+              </li>
+              <li>
+                <span aria-hidden="true">♡</span>
+                <div>
+                  <h3>Créativité</h3>
+                  <p>Expérimenter, jouer, inventer son style.</p>
+                </div>
+              </li>
+              <li>
+                <span aria-hidden="true">♡</span>
+                <div>
+                  <h3>Bien-être</h3>
+                  <p>Des gestes doux, durables et sincères.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="services">
+        <div class="container">
+          <p class="label">✿ Services</p>
+          <h2>Tout pour une peau heureuse</h2>
+          <div class="grid grid--4">
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">✿</span>
+              <h3>Routines skincare personnalisées</h3>
+              <p>
+                Un programme matin et soir adapté à votre type de peau, vos
+                envies et votre budget.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">✿</span>
+              <h3>Conseils beauté</h3>
+              <p>
+                Maquillage, soins, gestes simples : des astuces claires pour
+                révéler votre style.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">✿</span>
+              <h3>Sélection de produits cosmétiques</h3>
+              <p>
+                Des produits testés et choisis avec soin, expliqués sans jargon.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">✿</span>
+              <h3>Guides et astuces bien-être</h3>
+              <p>
+                Sommeil, hydratation, pauses douceur : prendre soin de soi au
+                quotidien.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="equipe">
+        <div class="container">
+          <p class="label">✿ Équipe</p>
+          <h2>Les trois fondatrices de <span class="grad">Pinkora</span></h2>
+          <div class="grid grid--3">
+            <article class="card team">
+              <div class="avatar" aria-hidden="true">AA</div>
+              <h3>Aya Ayadi</h3>
+              <p>Fondatrice &amp; Directrice créative</p>
+            </article>
+            <article class="card team">
+              <div class="avatar" aria-hidden="true">SA</div>
+              <h3>Senda Ben Abdelghani</h3>
+              <p>Experte skincare</p>
+            </article>
+            <article class="card team">
+              <div class="avatar" aria-hidden="true">EM</div>
+              <h3>Eya Mohsni</h3>
+              <p>Conseillère beauté &amp; bien-être</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contact">
+        <div class="container contact">
+          <div>
+            <p class="label">✿ Contact</p>
+            <h2>Parlons de votre <span class="grad">routine</span></h2>
+            <p>
+              Une question, une peau capricieuse, une envie de conseils ?
+              Écrivez-nous, nous répondons avec le sourire.
+            </p>
+            <ul class="info">
+              <li>
+                <span class="heart" aria-hidden="true">♥</span
+                ><a href="mailto:hello@pinkora-beauty.com"
+                  >hello@pinkora-beauty.com</a
+                >
+              </li>
+              <li>
+                <span class="heart" aria-hidden="true">♥</span
+                ><a href="tel:+21622300400">+216 22 300 400</a>
+              </li>
+              <li>
+                <span class="heart" aria-hidden="true">♥</span
+                ><span>Jendouba, Tunisie</span>
+              </li>
+            </ul>
+          </div>
+          <form class="form" id="form" action="#" method="post" novalidate>
+            <div class="field">
+              <label for="nom"
+                ><span aria-hidden="true">♥</span> Nom complet</label
+              ><input
+                id="nom"
+                name="nom"
+                type="text"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="email"
+                ><span aria-hidden="true">♥</span> Adresse e-mail</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="sujet"><span aria-hidden="true">♥</span> Sujet</label
+              ><input id="sujet" name="sujet" type="text" required />
+            </div>
+            <div class="field">
+              <label for="message"
+                ><span aria-hidden="true">♥</span> Message</label
+              ><textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">
+              Let's talk, beauty!
+            </button>
+            <p class="form__status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <p class="footer__logo">Pinkora Beauty</p>
+          <p>Your beauty, your rules. Startup de beauté et de bien-être.</p>
+        </div>
+        <nav aria-label="Liens rapides">
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#equipe">Équipe</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <ul>
+          <li><a href="#accueil">Instagram</a></li>
+          <li><a href="#accueil">Pinterest</a></li>
+          <li><a href="#accueil">TikTok</a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">
+        © 2026 Pinkora Beauty. Tous droits réservés. ♡ ✿ ✨
+      </p>
+    </footer>
+
+   
+  </body>
+</html>
